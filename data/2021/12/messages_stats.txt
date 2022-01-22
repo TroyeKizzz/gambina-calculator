@@ -1,0 +1,35 @@
+Total number of messages: 105
+    Out of them:
+        - Fully processed: 98
+        - Unprocessed start time: 1
+        - Unprocessed end time: 2
+        - Fully unprocessed: 4
+The following are the unprocessed messages: 
+
+--- Fully unprocessed messages ---
+
+01.12.2021 17:25:09
+vähän huono ryhmä kysellä tättä mut g10 silliksellä olleet, kuulin juttuu et mun pötkispaljukruunu on eksyny johki hervannan kerhohuoneelle😂 olisko tietoo et millähän kerhohuoneella se ois ja saisinko joltai sen noudettua? tunnearvo on suuri💚
+
+01.12.2021 19:59:08
+meillä on raadilta arvostelukuvaus:  gambina jouluomena-limonadilla (jombina)  ennakko-odotus helvetin hyvä. maistuu laimealta gambinalta ja kaardemummalta. maistuu ässä piparilta. maistuu kaneliselta sittenkin. lämpimänä voisi olla hyvää. tosi jouluinen. haju hyvä. kyl jois, nam. joululauluja kuunneltiin. virvoitusjuoman makuinen. uusi guumilimu. limuviinaa teineille. jouluinen fiilis, leivotaan melkein pipareita. kuunneltiin kokouksessa joululauluja. arvosana: 5/5 ihan vitun hyvää, tää on uus guumilimu
+
+05.12.2021 03:05:39
+piettiin kokkous, 3:00, henkka avasi ja minä sihteerinä. ollaan tosi laillisia ja tehtiin lumityöt. on kylmintä gambinaa ja osalla kokousyleisöstä ei satu jalkaan. pupu ja miika uusia kannatusjäseniä. huusissa kaikille paikkoja on.
+
+09.12.2021 20:09:49
+nii, ehkä ollaan ajateltu väärin että noiden legacy gambinoiden arvo on vaan noussut (9,99? ->10,39) mutta todellisuudessa se  on pysynyt siinä 9,99 ja siinä on vaan sit samassa suhteessa vähemmän tuohon 10,39 hintaan
+
+--- Unprocessed start time ---
+
+18.12.2021 02:02:48
+1. kokouksen avaus ajassa saarikylien huussis part 3 pj:  hakola sihteeri: janne 2. kokouksen laillisuus on joo bro 3. ilmoitusasiat ja posti ramstein soi, ens vuonna rockfesteille, jäbät on iha vitun känäs, bossmuna ja haggis nugguu, pullo kiertää veljet, janne on messis, eppu (!), me rakastetaa toisiamme, päivän hitain gokous lol, äijät ei pysy pystys, juomisest ei tuu mitää 4. uusien kannatusjäsenten hyväksyminen ei oo taaskaa 5. meta g-indeksi 10,39 @ stubex, tuomo haluaa kuolla mut se on ok, ironmaiden livenä ens kesänä 6. kokouksen päättäminen ajassa 1:59 
+
+--- Unprocessed end time ---
+
+04.12.2021 22:04:17
+1.  kokouksen avaus avataan ajassa 21.57   2.  kokouksen laillisuus ja päätösvaltaisuus ihan helvetin laillinen ja päätösvaltaisuus jne.   3.  ilmoitusasiat ja posti juulia ilmoittaa että kaksi gambinaseuran käsentä yksi joka voitti taksigays:n palkinnon rikulla synttärit paljon onnea jne. gambina on hyvää gambina maistuu punaiselta   4.  uusien kannatusjäsenten hyväksyminen ei, pelkkiä kokeneita konkareita paikalle   5.  muut esille tulevat asiat luupin pikkujoulut 5/5 uus pj ei niin hyvännäkönen vanha pj hyvännäkönen gokouksen pj saatanan seksikäs sex bätäng tyllerö vittu lääh puuh saatana 👁👅👁 laulettiin synttärilaulu   6.  kokouksen päättäminen   päätetään ajassa jotain sori en kuunnellu t. sihteeri
+
+11.12.2021 02:13:57
+sihteeri: laura häkkinen puheenjohtaja: miska mynttinen  1. kokouksen avaus ajassa:  1.44  2. todetaan kokous päätösvaltaiseksi jne... kyllä  3. posti muille: gambina besttt  4. uudet jäsenet joakim gustafson netta narho lotta raitaranta ilmari kansanen   5. muuta valdemar parempaa
+
