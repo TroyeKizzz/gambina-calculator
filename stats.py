@@ -78,6 +78,7 @@ def find_start_time(msg):
 
 
 def find_end_time(msg):
+    print(msg)
     end_time_index = -1
 
     # find "6. "
