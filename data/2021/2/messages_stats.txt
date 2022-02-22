@@ -1,0 +1,20 @@
+Total number of messages: 41
+        Out of them:
+            - Fully processed: 39
+            - Unprocessed start time: 0
+            - Unprocessed end time: 1
+            - Fully unprocessed: 1
+    The following are the unprocessed messages: 
+
+--- Fully unprocessed messages ---
+
+25.02.2021 12:36:50
+oletan että suurin osa tämän ryhmän ihmisistä ei asu pääkaupunkiseudulla, joten osallistuminen tapahtumaan on haastavaa jos ja kun tapahtuman tarkka aika ja paikka ilmoitetaan max tunnin varoitusajalla.
+
+--- Unprocessed start time ---
+
+--- Unprocessed end time ---
+
+14.02.2021 02:09:00
+kokous avataan 2.02 reetta pjks lokaatio: jmt3 aula sihteeriksi julle kokous on laillinen ja päätösvaltainen gambina on hedelmällisempää kuin aikaisemmin vittu kitatkaa leevi ilmoittaa että hänellä on maanantai aamuna työhaastattelu unna juo mukista sofia ei saa kellottaa gambinaa nessu otti ainakin 5 huikkaa uusia kannatusjäseniä: otto turpa kii ja kellota stonks go up ei mainoksia, kiitos kokous päätettiin ajassa 2.06
+

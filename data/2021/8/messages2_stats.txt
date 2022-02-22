@@ -1,0 +1,14 @@
+Total number of messages: 2
+        Out of them:
+            - Fully processed: 2
+            - Unprocessed start time: 0
+            - Unprocessed end time: 0
+            - Fully unprocessed: 0
+    The following are the unprocessed messages: 
+
+--- Fully unprocessed messages ---
+
+--- Unprocessed start time ---
+
+--- Unprocessed end time ---
+

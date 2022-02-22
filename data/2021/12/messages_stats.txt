@@ -1,10 +1,10 @@
 Total number of messages: 105
-    Out of them:
-        - Fully processed: 98
-        - Unprocessed start time: 1
-        - Unprocessed end time: 2
-        - Fully unprocessed: 4
-The following are the unprocessed messages: 
+        Out of them:
+            - Fully processed: 98
+            - Unprocessed start time: 1
+            - Unprocessed end time: 2
+            - Fully unprocessed: 4
+    The following are the unprocessed messages: 
 
 --- Fully unprocessed messages ---
 

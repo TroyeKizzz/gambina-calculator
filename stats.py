@@ -1,4 +1,5 @@
 import json
+from stat import FILE_ATTRIBUTE_ARCHIVE
 from tracemalloc import start
 
 start_meeting_words_fin = ["avataan ajassa", "avasi kokouksen ajassa", "avasi gogouksen ajassa", "avasi gokouksen ajassa", "avaus ajassa", "avattu", "avasi", "avaa kokouksen ajassa", "kokouksen avaus", "avattiin ajassa", "avataan kokous ajassa", "kokouksen avaaminen", "alkaa ajassa", "avataan", "avatuksi", "avattu ajassa"]
@@ -54,7 +55,7 @@ def find_start_time(msg):
         time_candidates = {}
         for i in range(one_pos+4,two_pos):
             if msg[i] in "1234567890.: ":
-                if msg[i-1] in "1234567890.: ":
+                if msg[i-1] in "1234567890.: " and i > one_pos + 4:
                     time_candidates[list(time_candidates.keys())[-1]] += 1
                 else:
                     time_candidates[i] = 1
@@ -102,7 +103,7 @@ def find_end_time(msg):
         time_candidates = {}
         for i in range(six_pos+4,len(msg)):
             if msg[i] in "1234567890.: ":
-                if msg[i-1] in "1234567890.: ":
+                if msg[i-1] in "1234567890.: " and i > six_pos + 4:
                     time_candidates[list(time_candidates.keys())[-1]] += 1
                 else:
                     time_candidates[i] = 1
@@ -228,3 +229,47 @@ def process_meetings(data_dir):
         file.write(msg["text"]+"\n\n")
 
     file.close()
+
+
+def extract_stats(data_dir):
+    file = open(data_dir+"_stats.txt", "r")
+    text = file.read()
+    file.close()
+    stats = {
+        "month": int(data_dir.split("/")[2]),
+        "processed": 0,
+        "start_unprocessed": 0,
+        "end_unprocessed": 0,
+        "unprocessed": 0
+    }
+    
+
+    # Find fully processed
+    number = ""
+    for i in range(text.find("- Fully processed: ") + len("- Fully processed: "), text.find("- Fully processed: ") + len("- Fully processed: ") + 5):
+        if text[i] in "1234567890":
+            number += text[i]
+    stats["processed"] = int(number)
+
+    # Find start unprocessed
+    number = ""
+    for i in range(text.find("- Unprocessed start time: ") + len("- Unprocessed start time: "), text.find("- Unprocessed start time: ") + len("- Unprocessed start time: ") + 5):
+        if text[i] in "1234567890":
+            number += text[i]
+    stats["start_unprocessed"] = int(number)
+
+    # Find end unprocessed
+    number = ""
+    for i in range(text.find("- Unprocessed end time: ") + len("- Unprocessed end time: "), text.find("- Unprocessed end time: ") + len("- Unprocessed end time: ") + 5):
+        if text[i] in "1234567890":
+            number += text[i]
+    stats["end_unprocessed"] = int(number)
+
+    # Find unprocessed
+    number = ""
+    for i in range(text.find("- Fully unprocessed: ") + len("- Fully unprocessed: "), text.find("- Fully unprocessed: ") + len("- Fully unprocessed: ") + 5):
+        if text[i] in "1234567890":
+            number += text[i]
+    stats["unprocessed"] = int(number)
+
+    return stats
